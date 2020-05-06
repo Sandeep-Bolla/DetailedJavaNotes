@@ -1,3 +1,3 @@
-#JavaNote
+# JavaNotes
 
-This is a personal JavaNotes
+This is my personal JavaNotes...
