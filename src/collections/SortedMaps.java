@@ -3,6 +3,7 @@ package collections;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.SortedMap;
 import java.util.TreeMap;
 
 //hashmap is based on its hash value so got its name
@@ -12,9 +13,10 @@ public class SortedMaps {
         //Map interface
         Map<Integer, String> m1 = new HashMap<>(); //normal hashmap... not sorted...random 
         Map<Integer, String> m2 = new LinkedHashMap<>();//LinkedHashMap is key&value in doubly linked list...same order of the input
-        Map<Integer, String> m3 = new TreeMap<>();//TreeMap is sorted in natural order
+        SortedMap<Integer, String> m3 = new TreeMap<>();//TreeMap is sorted in natural order
+        //SortedMap interface exists for TreeMap
 
-        mapIterate(m1); //random order somtimes sorted for small hashmaps
+        mapIterate(m1); //random order sometimes sorted for small hashmaps
         mapIterate(m2); //order of input
         mapIterate(m3); //naural order of java ie.sorted
     }

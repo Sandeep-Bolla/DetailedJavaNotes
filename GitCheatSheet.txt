@@ -1,0 +1,64 @@
+git config --global user.name "Sandeep-Bolla"
+git config --global user.email "sandeep97975@gmail.com"
+git config --global --list # To check the info you just provided
+
+git init
+
+git remote
+
+git rm --cached <index.html>
+
+git add *.hmtl
+
+git add .
+
+git status #Lists all new or modified files to be committed
+
+git rm --cached -r .  #To remove all the staged files(but not yet comiitted) from staging... rm for remove, -r for recursive, --cached  for staged
+
+git commit -m "message"
+
+git reset HEAD~1 # Remove the most recent commit# Commit again!
+
+git remote add origin remote_repository_URL# sets the new remote
+
+
+$ git remote -v
+# View current remotes
+> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+> origin  https://github.com/OWNER/REPOSITORY.git (push)
+> destination  https://github.com/FORKER/REPOSITORY.git (fetch)
+> destination  https://github.com/FORKER/REPOSITORY.git (push)
+
+$ git remote rm destination
+# Remove remote
+$ git remote -v
+# Verify it's gone
+> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+> origin  https://github.com/OWNER/REPOSITORY.git (push)
+
+
+git push -u origin master # pushes changes to origin
+
+touch .gitignore #github/gitignore to know the common files to be aded in this	
+
+
+git branch <new_branch_name> #To create Branch
+
+git branch # To check out a branch and * shows which branch we are currently working on
+
+git checkout <branch_name> #To switch to the particular branch
+
+git checkout master #To switch to master branch
+
+git merge <brranch-name> -m "message"
+
+git pull
+
+
+//forking is getting the copy of the cdoe into ur own remote repo
+//pull requesting is to make a request to make ur code into official repo
+
+
+git rebase
+

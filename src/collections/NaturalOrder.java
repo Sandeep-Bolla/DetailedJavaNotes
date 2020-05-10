@@ -13,8 +13,6 @@ import java.util.TreeSet;
 
 class PersonEx extends Person implements Comparable<Person>{
 
-    
-
     PersonEx(int id, String name) {
         super(id, name); //super() is used to call constructors of parent class
     }

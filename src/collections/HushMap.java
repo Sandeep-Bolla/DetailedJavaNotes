@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class HushMap {
     public static void main(String[] args) {
-        HashMap<Integer, String> m1 = new HashMap<>();
+        Map<Integer, String> m1 = new HashMap<>();
         //N duplicate Keys but Duplicate Value exist
         m1.put(5, "Cooper"); m1.put(2,"Brand");m1.put(3, "Murph");
 
@@ -17,7 +17,7 @@ public class HushMap {
             System.out.println(i+" : "+text);
         }
 
-        for(Integer key: m1.keySet()){ //another way of map iterationbased on keys (since they are unique)
+        for(Integer key: m1.keySet()){ //another way of map iteration based on keys (since they are unique)
             System.out.println(key+" : "+m1.get(key));
         }
     }

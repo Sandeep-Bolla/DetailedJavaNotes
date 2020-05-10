@@ -25,6 +25,7 @@ public class Sorting {
         List<String> l1 = new ArrayList<>();
         l1.add("Sandeep");l1.add("Bolla");l1.add("Sampath");
         System.out.println(l1);
+
         Collections.sort(l1);//sorting using natural ordering
         System.out.println(l1);
 
@@ -44,6 +45,8 @@ public class Sorting {
         System.out.println(l2);
         Collections.sort(l2, new RevSortIntList());
         System.out.println(l2);
+
+        //List<Integer> l6 = Collections.emptyList(); returns an empty list
 
         //Sorting a list of Objects of a Custom class
         
